@@ -110,5 +110,5 @@ Return Type Declarations & Scalar Type Hints  // pour typer les arguments les re
 Catch Error + Execption = Throwable. 
 * catch both exceptions and errors, catch \Throwable. 
 * only catch exceptions, then catch \Exception. 
-* only catch errors, use catch \Error.
+* only catch errors, use catch \Error.      
 Multi catch-exception avec ```|```
