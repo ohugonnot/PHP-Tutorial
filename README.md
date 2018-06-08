@@ -53,7 +53,11 @@ Le seul moyen de dupliquer un objet => ```clone```
 * Les interfaces ne sont autre que des classes 100% abstraites.        
 * Toutes les méthodes présentes dans une interface doivent être publiques.        
 * Une interface ne peut pas lister de méthodes abstraites ou finales.      
-* Une interface ne peut pas avoir le même nom qu'une classe et vice-versa.        
+* Une interface ne peut pas avoir le même nom qu'une classe et vice-versa.      
+     
+Les différences entre une classe abstraite et une interface     
+* Une classe abstraite peut avoir des méthodes définis alors qu'une interface non
+* Une classe ne peut extends que d'une seule classe (abstraite ou non) mais peux implémenter plusieurs interfaces
 
 ### Les traits
 * Les traits sont un moyen pour éviter la duplication de méthodes.
@@ -94,6 +98,8 @@ Le seul moyen de dupliquer un objet => ```clone```
       // ...
     }
 ```
+      
+Un container permet de stocker tous les services d'une application et d'instancier les objets une unique fois (ou plusieurs si factory avec pimple). Le container permet de gérer facilement tous les services il suffit de l'injecter directement dans les classes pour pouvoir appeler n'importe quel service de n'importe ou.     
 
 ## PHP 7 les nouveautés
 PHP 7 est plus rapide. -> PHPNG de 25% à 70%        
