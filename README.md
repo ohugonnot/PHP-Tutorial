@@ -1,4 +1,4 @@
-# PHP-Tutorial
+# PHP-Essentiel
 
 ### 4 types scalaires :
 * boolean       
